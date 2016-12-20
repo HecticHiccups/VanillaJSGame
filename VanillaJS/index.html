@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title> Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+ <!-- body property when the body loads, the Game is started-->
+<body onload="startGame()">
+
+
+    <h1> Tic Tac Toe in JS</h1>
+
+
+    <div id="message">Messages Here</div>
+    <!--Defining the table with a property border =1 and 3 Rows and 3 Columns within each row -->
+    <table border=1>
+        <tr> <!--giving each tb square a unique id, as well as an onclick property refering  precisely to that element-->
+            <td class="square" id="s1" onClick="nextMove(this)"></td>
+            <td class="square" id="s2" onClick="nextMove(this)"></td>
+            <td class="square" id="s3" onClick="nextMove(this)"></td>
+        </tr>
+        <tr>
+            <td class="square" id="s4" onClick="nextMove(this)"></td>
+            <td class="square" id="s5" onClick="nextMove(this)"></td>
+            <td class="square" id="s6" onClick="nextMove(this)"></td>
+        </tr>
+        <tr>
+            <td class="square" id="s7" onClick="nextMove(this)"></td>
+            <td class="square" id="s8" onClick="nextMove(this)"></td>
+            <td class="square" id="s9" onClick="nextMove(this)"></td>
+        </tr>
+
+    </table>
+    <!--Anchor tag which call the startGame Function in order to Restart the Game-->
+    <a href="Javascript:startGame();" id="restart">Start Over</a>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+
+</html>

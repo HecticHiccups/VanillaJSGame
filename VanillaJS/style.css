@@ -1,0 +1,38 @@
+/* Importing Google APIS */
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Lato|Mirza|Space+Mono');
+
+
+@-ms-viewport{
+  width: device-width;
+}
+.square {
+    height: 80px;
+    width: 80px;
+    font-size: 45pt;
+    text-align: center;
+    font-family: 'Mirza', cursive;
+}
+
+body {
+    width: 550px;
+    margin: auto;
+    background: #F7FFFD;
+    /* centers body */
+}
+
+h1 {
+    border-bottom: 1px solid black;
+    font-family: 'Space Mono', monospace;
+}
+
+#message {
+    font-size: 18pt;
+    font-family: 'Amatic SC', cursive;
+}
+
+#restart {
+    font-size: 18pt;
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+    color: black;
+}
