@@ -1,3 +1,0 @@
-# VanillaJSGame
-
-Javascript Practice
